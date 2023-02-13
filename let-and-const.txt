@@ -1,0 +1,13 @@
+ES2015 Global Constants:
+const PI = 3.14;
+PI = 42;
+
+QUIZ:
+1) "var" declares a function-scoped variable. "let" declares a block-scoped variable. Thus "var" can be redeclared and reassigned,
+but "let" cannot be redeclared - only reassigned.
+2) "var" is function-scoped, and "const" is block-scoped. "var" can be redeclared or reassigned. "const" cannot be redeclared
+or reassigned.
+3) "let" and "const" are both block-scoped variable initializers. "let" variables can be reassigned but not redeclared. "const"
+variables cannot be reassigned or redeclared.
+4) "Hoisting" is the JS compiling behavior for "var" variables, where the declarations are "performed" first before other code.
+Thus they will be declared, but not initalized or modified until later code does so.
